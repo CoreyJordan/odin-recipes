@@ -1,7 +1,13 @@
-body {
-    color: rgb(250, 250, 250);
-    background-color: rgb(40, 40, 40);
+body,
+.header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(50, 80, 250);
+}
+
+body {
+    background-color: rgb(40, 40, 40);  
+    color: rgb(250,250,250);  
+
 }
 
 .center {
@@ -10,17 +16,22 @@ body {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: aqua 1px 0px 10px;
 }
 
 .header {
-    color: rgb(250, 250, 250);
     background-color: rgb(50, 50, 50);
     text-align: left;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 36px;
+    text-shadow: aqua 1px 0px 10px;
 }
 
 .boss {
     font-size: 72px;
     text-align: center;
+    color: rgb(50,80,250);
+}
+
+.list {
+    text-indent: 10%;
 }
